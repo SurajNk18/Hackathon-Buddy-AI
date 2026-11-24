@@ -65,3 +65,5 @@ dist-ssr
 *.sln
 *.sw?
 >>>>>>> 5e2b7a9d34cd08c2e3d078055ade2e92ef7e4c61
+
+/.mysql_data/
