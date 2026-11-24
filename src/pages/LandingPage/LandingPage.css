@@ -1,0 +1,682 @@
+/* ==========================================================
+   HACKATHON BUDDY — REDESIGNED LANDING PAGE
+   Modern clean design · Violet/teal accents · Light bg
+   ========================================================== */
+
+/* ── BASE RESET (scoped to .lp) ────────────────────────── */
+.lp {
+  min-height: 100vh;
+  width: 100%;
+  background: #f8f9fc;
+  color: #1a1a2e;
+  overflow-x: hidden;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Override global dark-mode body leak for the landing page */
+.lp *,
+.lp *::before,
+.lp *::after {
+  box-sizing: border-box;
+}
+
+/* ── ANIMATION UTILITIES ───────────────────────────────── */
+.lp-animate {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.lp-animate.lp-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lp-delay-1 {
+  transition-delay: 0.12s;
+}
+.lp-delay-2 {
+  transition-delay: 0.24s;
+}
+
+/* ── NAVBAR ────────────────────────────────────────────── */
+.lp-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(248, 249, 252, 0.82);
+  backdrop-filter: blur(18px) saturate(1.6);
+  -webkit-backdrop-filter: blur(18px) saturate(1.6);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.lp-nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 68px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ── BRAND ── */
+.lp-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+.lp-brand-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 3px 12px rgba(124, 58, 237, 0.28);
+  flex-shrink: 0;
+}
+
+.lp-brand-icon.small {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.lp-brand-name {
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #1a1a2e;
+  white-space: nowrap;
+}
+
+.lp-brand-name span {
+  color: #7c3aed;
+}
+
+/* ── NAV LINKS ── */
+.lp-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.lp-nav-links a {
+  color: #5e5e7e;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.lp-nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #7c3aed;
+  border-radius: 1px;
+  transition: width 0.25s ease;
+}
+
+.lp-nav-links a:hover {
+  color: #7c3aed;
+}
+
+.lp-nav-links a:hover::after {
+  width: 100%;
+}
+
+/* ── NAV ACTIONS ── */
+.lp-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lp-signin-btn {
+  background: transparent;
+  border: none;
+  color: #5e5e7e;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lp-signin-btn:hover {
+  color: #7c3aed;
+  background: rgba(124, 58, 237, 0.06);
+}
+
+.lp-cta-nav-btn {
+  padding: 9px 22px;
+  background: #7c3aed;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(124, 58, 237, 0.28);
+  transition: all 0.22s ease;
+}
+
+.lp-cta-nav-btn:hover {
+  background: #6d28d9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.38);
+}
+
+/* ==========================================================
+   HERO SECTION
+   ========================================================== */
+.lp-hero {
+  position: relative;
+  padding: 72px 32px 60px;
+  overflow: hidden;
+}
+
+/* Ambient gradient blurs */
+.lp-hero-glow {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(130px);
+  opacity: 0.45;
+}
+
+.lp-hero-glow--left {
+  top: -80px;
+  left: -160px;
+  background: rgba(124, 58, 237, 0.12);
+}
+
+.lp-hero-glow--right {
+  bottom: -100px;
+  right: -160px;
+  background: rgba(45, 212, 191, 0.1);
+}
+
+.lp-hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+/* ── Hero copy ── */
+.lp-hero-content {
+  flex: 1 1 52%;
+  min-width: 0;
+}
+
+.lp-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px 6px 12px;
+  background: rgba(124, 58, 237, 0.07);
+  border: 1px solid rgba(124, 58, 237, 0.16);
+  border-radius: 999px;
+  color: #7c3aed;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 26px;
+}
+
+.lp-hero-title {
+  font-size: clamp(34px, 4.8vw, 54px);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -1.5px;
+  color: #1a1a2e;
+  margin: 0 0 22px 0;
+}
+
+.lp-gradient-text {
+  background: linear-gradient(135deg, #7c3aed 20%, #2dd4bf 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.lp-hero-desc {
+  max-width: 500px;
+  color: #5e5e7e;
+  font-size: 16.5px;
+  line-height: 1.72;
+  margin: 0 0 34px 0;
+}
+
+/* ── CTA Buttons ── */
+.lp-hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.lp-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 26px;
+  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(124, 58, 237, 0.32);
+  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.lp-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(124, 58, 237, 0.42);
+}
+
+.lp-btn-primary:active {
+  transform: translateY(0);
+}
+
+.lp-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 24px;
+  background: #fff;
+  border: 1.5px solid #e4e4ee;
+  border-radius: 12px;
+  color: #1a1a2e;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.22s ease;
+}
+
+.lp-btn-secondary:hover {
+  border-color: #c4b5fd;
+  background: rgba(124, 58, 237, 0.03);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ── Hero Visual ── */
+.lp-hero-visual {
+  flex: 1 1 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.lp-hero-img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  object-fit: contain;
+  animation: lp-float 6s ease-in-out infinite;
+  filter: drop-shadow(0 20px 40px rgba(124, 58, 237, 0.08));
+}
+
+@keyframes lp-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+/* ==========================================================
+   FEATURES SECTION
+   ========================================================== */
+.lp-features {
+  padding: 80px 32px 96px;
+  background: #fff;
+  position: relative;
+}
+
+.lp-features-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.lp-section-header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.lp-section-kicker {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #7c3aed;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.lp-section-title {
+  font-size: clamp(24px, 3.2vw, 36px);
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 0;
+  letter-spacing: -0.8px;
+}
+
+.lp-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.lp-feature-card {
+  background: #f8f9fc;
+  border: 1px solid #ebebf2;
+  border-radius: 16px;
+  padding: 30px 26px;
+  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.lp-feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(124, 58, 237, 0.07),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+  border-color: rgba(124, 58, 237, 0.18);
+}
+
+.lp-feature-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.lp-icon-violet {
+  background: rgba(124, 58, 237, 0.09);
+  color: #7c3aed;
+}
+
+.lp-icon-teal {
+  background: rgba(45, 212, 191, 0.1);
+  color: #0d9488;
+}
+
+.lp-icon-amber {
+  background: rgba(245, 158, 11, 0.09);
+  color: #d97706;
+}
+
+.lp-feature-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.2px;
+}
+
+.lp-feature-card p {
+  color: #5e5e7e;
+  font-size: 14px;
+  line-height: 1.68;
+  margin: 0;
+}
+
+/* ==========================================================
+   CTA STRIP (About / Final CTA)
+   ========================================================== */
+.lp-cta-strip {
+  padding: 72px 32px;
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.04) 0%,
+    rgba(45, 212, 191, 0.03) 100%
+  );
+  border-top: 1px solid #ebebf2;
+}
+
+.lp-cta-strip-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lp-cta-strip-inner h2 {
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 0 0 14px 0;
+  letter-spacing: -0.6px;
+}
+
+.lp-cta-strip-inner p {
+  color: #5e5e7e;
+  font-size: 15.5px;
+  line-height: 1.65;
+  margin: 0 0 30px 0;
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+.lp-footer {
+  border-top: 1px solid #ebebf2;
+  padding: 32px 32px;
+  background: #f8f9fc;
+}
+
+.lp-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.lp-footer p {
+  color: #9494b0;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* ==========================================================
+   RESPONSIVE DESIGN
+   ========================================================== */
+
+/* ── Tablets & small laptops ── */
+@media (max-width: 1024px) {
+  .lp-hero-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 36px;
+  }
+
+  .lp-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lp-hero-desc {
+    max-width: 560px;
+  }
+
+  .lp-hero-btns {
+    justify-content: center;
+  }
+
+  .lp-hero-img {
+    max-width: 400px;
+  }
+}
+
+/* ── Medium phones & small tablets ── */
+@media (max-width: 768px) {
+  .lp-nav-links {
+    display: none;
+  }
+
+  .lp-nav-inner {
+    padding: 0 20px;
+    height: 62px;
+  }
+
+  .lp-hero {
+    padding: 48px 20px 36px;
+  }
+
+  .lp-hero-img {
+    max-width: 320px;
+  }
+
+  .lp-features {
+    padding: 56px 20px 64px;
+  }
+
+  .lp-features-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .lp-cta-strip {
+    padding: 52px 20px;
+  }
+}
+
+/* ── Small phones ── */
+@media (max-width: 540px) {
+  .lp-nav-inner {
+    padding: 0 14px;
+    height: 58px;
+  }
+
+  .lp-brand-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+  }
+
+  .lp-brand-name {
+    font-size: 14.5px;
+  }
+
+  .lp-signin-btn {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .lp-cta-nav-btn {
+    padding: 8px 16px;
+    font-size: 12.5px;
+  }
+
+  .lp-hero {
+    padding: 32px 16px 24px;
+  }
+
+  .lp-hero-title {
+    font-size: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .lp-hero-desc {
+    font-size: 14.5px;
+  }
+
+  .lp-hero-btns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .lp-btn-primary,
+  .lp-btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 13px 20px;
+  }
+
+  .lp-hero-img {
+    max-width: 260px;
+  }
+
+  .lp-features {
+    padding: 44px 16px 52px;
+  }
+
+  .lp-feature-card {
+    padding: 22px 18px;
+  }
+
+  .lp-cta-strip {
+    padding: 40px 16px;
+  }
+
+  .lp-footer {
+    padding: 24px 16px;
+  }
+
+  .lp-footer-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+/* ── Extra small ── */
+@media (max-width: 380px) {
+  .lp-hero-title {
+    font-size: 26px;
+  }
+
+  .lp-brand-name {
+    font-size: 13px;
+  }
+
+  .lp-nav-actions {
+    gap: 6px;
+  }
+
+  .lp-signin-btn {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .lp-cta-nav-btn {
+    font-size: 11.5px;
+    padding: 7px 12px;
+  }
+}

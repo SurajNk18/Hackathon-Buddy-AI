@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <!-- HackathonBuddy Favicon — compact icon-only version -->
+  <rect width="32" height="32" rx="8" fill="#3730A3"/>
+
+  <!-- Rocket / launch symbol -->
+  <path d="M16 5.5 C16 5.5 12 11 12 16 C12 19 13.7 21.5 16 23 C18.3 21.5 20 19 20 16 C20 11 16 5.5 16 5.5Z" fill="white" opacity="0.95"/>
+
+  <!-- Flame -->
+  <path d="M16 23 C15 24.5 14.3 25.8 14.3 26.8 C14.3 27.8 15.1 28.5 16 28.5 C16.9 28.5 17.7 27.8 17.7 26.8 C17.7 25.8 17 24.5 16 23Z" fill="#818CF8" opacity="0.9"/>
+
+  <!-- Left node -->
+  <circle cx="10" cy="19" r="2" fill="white" opacity="0.7"/>
+  <line x1="12" y1="18.3" x2="14" y2="17" stroke="white" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- Right node -->
+  <circle cx="22" cy="19" r="2" fill="white" opacity="0.7"/>
+  <line x1="20" y1="18.3" x2="18" y2="17" stroke="white" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+</svg>

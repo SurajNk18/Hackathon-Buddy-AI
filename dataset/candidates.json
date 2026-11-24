@@ -1,0 +1,812 @@
+[
+  {
+    "email": "dipaligjadhav140@gmail.com",
+    "firstName": "Dipali",
+    "middleName": "Govind",
+    "surname": "Jadhav",
+    "fullName": "Dipali Govind Jadhav",
+    "primaryRole": "Frontend Developer",
+    "techSkills": "Frontend Developer, React, JavaScript, HTML, CSS",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "asutar1020@gmail.com",
+    "firstName": "Ashwini",
+    "middleName": "Rajendra",
+    "surname": "Sutar",
+    "fullName": "Ashwini Rajendra Sutar",
+    "primaryRole": "AI / Data Science Engineer",
+    "techSkills": "Artificial Intelligence, Machine Learning, Data Science, Deep Learning, Data Analysis, Python",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "patilsharvil03@gmail.com",
+    "firstName": "Sharvil",
+    "middleName": "Sunil",
+    "surname": "Patil",
+    "fullName": "Sharvil Sunil Patil",
+    "primaryRole": "Full Stack & GenAI Developer",
+    "techSkills": "Agentic AI, Gen AI, Full Stack Development, Web Application Development, REST API Development, Backend Development, MERN Stack Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "nidhishreepujari37@gmail.com",
+    "firstName": "Nidhishree",
+    "middleName": "Prabhakar",
+    "surname": "Pujari",
+    "fullName": "Nidhishree Prabhakar Pujari",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, Web Application Development, REST API Development, React.js Development, MERN Stack Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "mr.pruthviraj07@gmail.com",
+    "firstName": "Pruthviraj",
+    "middleName": "Santosh",
+    "surname": "Patil",
+    "fullName": "Pruthviraj Santosh Patil",
+    "primaryRole": "DevOps Engineer",
+    "techSkills": "DevOps Engineering, Cloud Computing, Linux Administration, Python Developer, Docker, Kubernetes, AWS",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "koleprajwal108@gmail.com",
+    "firstName": "Prajwal",
+    "middleName": "Ravindra",
+    "surname": "Kole",
+    "fullName": "Prajwal Ravindra Kole",
+    "primaryRole": "ML & IoT Engineer",
+    "techSkills": "Machine Learning, IoT, AI, Data Analyst, Python",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "pruthvirajthorbole96@gmail.com",
+    "firstName": "Pruthviraj",
+    "middleName": "Ankush",
+    "surname": "Thorbole",
+    "fullName": "Pruthviraj Ankush Thorbole",
+    "primaryRole": "Software Engineer",
+    "techSkills": "Software Development, Cloud Computing, Data Science, Data Analytics, Artificial Intelligence, Machine Learning, Generative AI, Database Management",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "abhayraut37@gmail.com",
+    "firstName": "Abhay",
+    "middleName": "Rajendra",
+    "surname": "Raut",
+    "fullName": "Abhay Rajendra Raut",
+    "primaryRole": "Web & AIML Developer",
+    "techSkills": "Web Development, AIML, Python, React, JavaScript",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shivsharanp49@gmail.com",
+    "firstName": "Prakash",
+    "middleName": "Vasant",
+    "surname": "Shivsharan",
+    "fullName": "Prakash Vasant Shivsharan",
+    "primaryRole": "Java Full Stack Developer",
+    "techSkills": "Java, Spring Boot, JavaScript, React.js, C++, MySQL, Docker, CI/CD, Full Stack Development, Backend Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sumitparihar333@gmail.com",
+    "firstName": "Sumit",
+    "middleName": "Nek Ram",
+    "surname": "Parihar",
+    "fullName": "Sumit Nek Ram Parihar",
+    "primaryRole": "Machine Learning Engineer",
+    "techSkills": "Machine Learning, Python, Scikit-learn, Data Analysis",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "vaishnavirajmane196@gmail.com",
+    "firstName": "Vaishnavi",
+    "middleName": "Shrikant",
+    "surname": "Rajmane",
+    "fullName": "Vaishnavi Shrikant Rajmane",
+    "primaryRole": "Java & AI/ML Developer",
+    "techSkills": "Java Development, Python, AI/ML, RAG, LangChain, MySQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "partthlande@gmail.com",
+    "firstName": "Parth",
+    "middleName": "Sunil",
+    "surname": "Lande",
+    "fullName": "Parth Sunil Lande",
+    "primaryRole": "Cybersecurity Specialist",
+    "techSkills": "Cybersecurity, SOC Operations, Incident Response, Threat Detection, SIEM, Python Automation, Network Security, Linux Security",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shreyaswagire75@gmail.com",
+    "firstName": "Shreyas",
+    "middleName": "Uday",
+    "surname": "Wagire",
+    "fullName": "Shreyas Uday Wagire",
+    "primaryRole": "Full Stack & Blockchain Developer",
+    "techSkills": "Full Stack Development, MERN Stack, Blockchain Development, Solidity, React, Node.js",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "siddhskore@gmail.com",
+    "firstName": "Siddhant",
+    "middleName": "Santosh",
+    "surname": "Kore",
+    "fullName": "Siddhant Santosh Kore",
+    "primaryRole": "Full Stack & Cloud Systems Engineer",
+    "techSkills": "Full Stack Development, Backend Systems, Cloud Technologies, Database Engineering, Java, JavaScript, Python, Agentic Systems",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shrutisathe741@gmail.com",
+    "firstName": "Shruti",
+    "middleName": "Prakash",
+    "surname": "Sathe",
+    "fullName": "Shruti Prakash Sathe",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, React, Node.js, JavaScript, MongoDB",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "viveklondhe0575@gmail.com",
+    "firstName": "Vivek",
+    "middleName": "Tanaji",
+    "surname": "Londhe",
+    "fullName": "Vivek Tanaji Londhe",
+    "primaryRole": "Data Analyst & Frontend Developer",
+    "techSkills": "Data Analytics, Frontend, React, JavaScript, Python, SQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "vaishnavipatil10445@gmail.com",
+    "firstName": "Vaishnavi",
+    "middleName": "Netaji",
+    "surname": "Patil",
+    "fullName": "Vaishnavi Netaji Patil",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, Web Application Development, REST API Development, React.js Development, MERN Stack Development, Databases",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "maneprajakta533@gmail.com",
+    "firstName": "Prajakta",
+    "middleName": "Ramrao",
+    "surname": "Mane",
+    "fullName": "Prajakta Ramrao Mane",
+    "primaryRole": "Web Developer & Data Analyst",
+    "techSkills": "Web Development, Data Analytics, Data Science, Databases, MySQL, React",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sohampirale@gmail.com",
+    "firstName": "Soham",
+    "middleName": "Sachin",
+    "surname": "Pirale",
+    "fullName": "Soham Sachin Pirale",
+    "primaryRole": "Agentic AI & Full Stack Developer",
+    "techSkills": "Agentic AI, GenAI, Web Development, Databases, SQL, NoSQL, Vector DB, Backend Development, Frontend Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "mukulkumbher2005@gmail.com",
+    "firstName": "Mukul",
+    "middleName": "Ramesh",
+    "surname": "Kumbhar",
+    "fullName": "Mukul Ramesh Kumbhar",
+    "primaryRole": "Data Scientist",
+    "techSkills": "Data Scientist, Python, Machine Learning, Data Analytics, Pandas, NumPy",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "pritammshinde2342005@gmail.com",
+    "firstName": "Pritam",
+    "middleName": "Mahadev",
+    "surname": "Shinde",
+    "fullName": "Pritam Mahadev Shinde",
+    "primaryRole": "Full Stack Developer & Data Analyst",
+    "techSkills": "Full Stack Development, Data Analyst, React, Python, JavaScript, SQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "bhaiyyarajjadhav82@gmail.com",
+    "firstName": "Bhaiyyaraj",
+    "middleName": "Bapurao",
+    "surname": "Jadhav",
+    "fullName": "Bhaiyyaraj Bapurao Jadhav",
+    "primaryRole": "Java Full Stack Developer",
+    "techSkills": "Java Programming, Full Stack Web Development, Spring Boot, React, MySQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "kumbharaditya777@gmail.com",
+    "firstName": "Aditya",
+    "middleName": "Ananda",
+    "surname": "Kumbhar",
+    "fullName": "Aditya Ananda Kumbhar",
+    "primaryRole": "C++ Systems & Game Developer",
+    "techSkills": "C++, Systems Programming, Game Development, Performance Engineering, Algorithms",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "amanchougule09@gmail.com",
+    "firstName": "Aman",
+    "middleName": "Najeer",
+    "surname": "Chougule",
+    "fullName": "Aman Najeer Chougule",
+    "primaryRole": "Python Full Stack Developer",
+    "techSkills": "Python Full Stack, Django, FastAPI, React, PostgreSQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "vaishnavipatil16195@gmail.com",
+    "firstName": "Vaishnavi",
+    "middleName": "Vishwas",
+    "surname": "Patil",
+    "fullName": "Vaishnavi Vishwas Patil",
+    "primaryRole": "Cloud & Data Analyst",
+    "techSkills": "Cloud Computing, AWS, Data Analytics, Python, SQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "manasijadhav9011@gmail.com",
+    "firstName": "Manasi",
+    "middleName": "Prashant",
+    "surname": "Jadhav",
+    "fullName": "Manasi Prashant Jadhav",
+    "primaryRole": "Web & AI Engineer",
+    "techSkills": "Web Development, AI Engineering, Data Analytics, Python, React",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "ptejaswini260@gmail.com",
+    "firstName": "Tejaswini",
+    "middleName": "Vikas",
+    "surname": "Patil",
+    "fullName": "Tejaswini Vikas Patil",
+    "primaryRole": "Data Analyst",
+    "techSkills": "Data Analytics, Python, SQL, Power BI, Excel",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "snehasakri75@gmail.com",
+    "firstName": "Sneha",
+    "middleName": "Vijaykumar",
+    "surname": "Sakri",
+    "fullName": "Sneha Vijaykumar Sakri",
+    "primaryRole": "Software Developer",
+    "techSkills": "Python, C, C++, Java, Software Development, OOP",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "rupeshgura234@gmail.com",
+    "firstName": "Rupesh",
+    "middleName": "Ramesh",
+    "surname": "Gurav",
+    "fullName": "Rupesh Ramesh Gurav",
+    "primaryRole": "Frontend & Web Developer",
+    "techSkills": "Web Development, Frontend Developer, Software Developer, React, JavaScript, HTML, CSS",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "anantthorat07@gmail.com",
+    "firstName": "Anant",
+    "middleName": "Kirankumar",
+    "surname": "Thorat",
+    "fullName": "Anant Kirankumar Thorat",
+    "primaryRole": "DevOps & Cloud Engineer",
+    "techSkills": "DevOps, Cloud Computing, Docker, Kubernetes, AWS, CI/CD, Linux",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "pratikmali00718@gmail.com",
+    "firstName": "Pratik",
+    "middleName": "Chandrakant",
+    "surname": "Mali",
+    "fullName": "Pratik Chandrakant Mali",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, React, Node.js, JavaScript, MongoDB, MySQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "chouguleshreya1011@gmail.com",
+    "firstName": "Shreya",
+    "middleName": "Sachin",
+    "surname": "Chougule",
+    "fullName": "Shreya Sachin Chougule",
+    "primaryRole": "Full Stack & AI/Blockchain Engineer",
+    "techSkills": "Full Stack, Blockchain, AIML, Software Testing, Smart Contracts, Python, React",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "swapnali.teli.30@gmail.com",
+    "firstName": "Swapnali",
+    "middleName": "Shrishail",
+    "surname": "Teli",
+    "fullName": "Swapnali Shrishail Teli",
+    "primaryRole": "Data Analytics & AI Engineer",
+    "techSkills": "Data Analytics, Power BI, Microsoft Excel, Python, Java, SQL, AI/ML, Generative AI, Frontend Development, Android App Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sakshimohite8895@gmail.com",
+    "firstName": "Sakshi",
+    "middleName": "Subhash",
+    "surname": "Mohite",
+    "fullName": "Sakshi Subhash Mohite",
+    "primaryRole": "Frontend & Web Developer",
+    "techSkills": "Frontend Development, Web Development, HTML, CSS, JavaScript, React",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "mahajanbarsha@gmail.com",
+    "firstName": "Barsha",
+    "middleName": "",
+    "surname": "Gupta",
+    "fullName": "Barsha Gupta",
+    "primaryRole": "Software Developer",
+    "techSkills": "Software Development, Java, Web Development, SQL, Data Structures",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "kadamabhishek0907@gmail.com",
+    "firstName": "Abhishek",
+    "middleName": "Nanaso",
+    "surname": "Kadam",
+    "fullName": "Abhishek Nanaso Kadam",
+    "primaryRole": "Data Analyst",
+    "techSkills": "Data Analytics, Python, SQL, Power BI, Excel, Data Visualization",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "jadhavpratik9009@gmail.com",
+    "firstName": "Pratik",
+    "middleName": "Rajesh",
+    "surname": "Jadhav",
+    "fullName": "Pratik Rajesh Jadhav",
+    "primaryRole": "Cybersecurity Specialist",
+    "techSkills": "Cybersecurity, Network Security, Ethical Hacking, Threat Detection, Linux Security",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "jiyamomin0610@gmail.com",
+    "firstName": "Jiya",
+    "middleName": "Javed",
+    "surname": "Momin",
+    "fullName": "Jiya Javed Momin",
+    "primaryRole": "Data Scientist & Analyst",
+    "techSkills": "Data Science, Data Analyst, Python, Machine Learning, Statistics, Pandas",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "tejaspatil1467@gmail.com",
+    "firstName": "Tejas",
+    "middleName": "Pradip",
+    "surname": "Patil",
+    "fullName": "Tejas Pradip Patil",
+    "primaryRole": "Cloud & Android Developer",
+    "techSkills": "Cloud Computing, Android App Development, Database Management Systems, DBMS, Java, Kotlin",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shwetachavan2610@gmail.com",
+    "firstName": "Shweta",
+    "middleName": "Shahaji",
+    "surname": "Chavan",
+    "fullName": "Shweta Shahaji Chavan",
+    "primaryRole": "Software Developer",
+    "techSkills": "Software Development, Web Development, Java, SQL, OOP",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "anushka6487@gmail.com",
+    "firstName": "Anushka",
+    "middleName": "Sambhaji",
+    "surname": "Salunkhe",
+    "fullName": "Anushka Sambhaji Salunkhe",
+    "primaryRole": "Frontend Developer",
+    "techSkills": "Front-End Development, HTML, CSS, JavaScript, React, UI Design",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "xrohanjadhav5054@gmail.com",
+    "firstName": "Rohan",
+    "middleName": "Dadasaheb",
+    "surname": "Jadhav",
+    "fullName": "Rohan Dadasaheb Jadhav",
+    "primaryRole": "Java Developer",
+    "techSkills": "Java Development, Core Java, Spring Boot, OOP, MySQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "saniyametkari630@gmail.com",
+    "firstName": "Saniya",
+    "middleName": "Jitendra",
+    "surname": "Metkari",
+    "fullName": "Saniya Jitendra Metkari",
+    "primaryRole": "Software Developer",
+    "techSkills": "Software Development, Java, C, C++, Python, DSA, Web Development, SQL, DBMS, OOP",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "ganeshgaikwad0701@gmail.com",
+    "firstName": "Ganesh",
+    "middleName": "Bhairavnath",
+    "surname": "Gaikwad",
+    "fullName": "Ganesh Bhairavnath Gaikwad",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, Java, Python, DSA, SQL, DBMS, OOP, Spring Boot",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "mahadiks666@gmail.com",
+    "firstName": "Sanket",
+    "middleName": "Sampat",
+    "surname": "Mahadik",
+    "fullName": "Sanket Sampat Mahadik",
+    "primaryRole": "Java & MERN Full Stack Developer",
+    "techSkills": "Java Full Stack Development, MERN Stack, MongoDB, Express, React, Node.js, Python Programming, Web Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "prathameshsutar068@gmail.com",
+    "firstName": "Prathamesh",
+    "middleName": "Sambhaji",
+    "surname": "Sutar",
+    "fullName": "Prathamesh Sambhaji Sutar",
+    "primaryRole": "Software Engineer",
+    "techSkills": "Software Engineering, Java, Python, Web Development, MySQL, Git",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shreyasmane480@gmail.com",
+    "firstName": "Shreyas",
+    "middleName": "Vilas",
+    "surname": "Mane",
+    "fullName": "Shreyas Vilas Mane",
+    "primaryRole": "Python & Data Analytics Developer",
+    "techSkills": "Python, SQL, Data Analytics, Machine Learning, HTML, CSS, JavaScript, Web Development, MySQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "patilpratik7762@gmail.com",
+    "firstName": "Pratik",
+    "middleName": "Pramod",
+    "surname": "Patil",
+    "fullName": "Pratik Pramod Patil",
+    "primaryRole": "Software Developer",
+    "techSkills": "Software Development, Java, C++, Python, Web Development, DBMS",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sangharshkawade1@gmail.com",
+    "firstName": "Sangharsh",
+    "middleName": "Vijay",
+    "surname": "Kawade",
+    "fullName": "Sangharsh Vijay Kawade",
+    "primaryRole": "Data Analytics & ML Engineer",
+    "techSkills": "Data Analytics, Machine Learning, Python, Scikit-learn, SQL, Pandas",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "manjrierande488@gmail.com",
+    "firstName": "Manjiri",
+    "middleName": "Makarand",
+    "surname": "Erande",
+    "fullName": "Manjiri Makarand Erande",
+    "primaryRole": "Artificial Intelligence Engineer",
+    "techSkills": "Artificial Intelligence, Machine Learning, Deep Learning, Python, Neural Networks",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "onkarmasal123@gmail.com",
+    "firstName": "Onkar",
+    "middleName": "Jalindar",
+    "surname": "Masal",
+    "fullName": "Onkar Jalindar Masal",
+    "primaryRole": "QA & Automation Test Engineer",
+    "techSkills": "Automation Testing, Selenium, Manual Testing, Database, MySQL, C++, Java, Oracle, Machine Learning",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "aaryapdiwan@gmail.com",
+    "firstName": "Aarya",
+    "middleName": "Pradeep",
+    "surname": "Diwan",
+    "fullName": "Aarya Pradeep Diwan",
+    "primaryRole": "Cybersecurity Specialist",
+    "techSkills": "Cybersecurity, Network Security, Vulnerability Assessment, Threat Detection, Linux Security",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sujalspatil7872@gmail.com",
+    "firstName": "Sujal",
+    "middleName": "Sanjay",
+    "surname": "Patil",
+    "fullName": "Sujal Sanjay Patil",
+    "primaryRole": "Software Developer",
+    "techSkills": "C, C++, Java, Python, Algorithms, Data Structures, OOP",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "samruddhib9612@gmail.com",
+    "firstName": "Samruddhi",
+    "middleName": "Satyanarayan",
+    "surname": "Bodhale",
+    "fullName": "Samruddhi Satyanarayan Bodhale",
+    "primaryRole": "ML & Data Analytics Developer",
+    "techSkills": "SQL, Machine Learning, Python, Data Analysis, Web Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "radhagurav28@gmail.com",
+    "firstName": "Radha",
+    "middleName": "Prashant",
+    "surname": "Gurav",
+    "fullName": "Radha Prashant Gurav",
+    "primaryRole": "Software Developer",
+    "techSkills": "Python, Java, C++, Software Development, OOP, Backend Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "farhanibushe@gmail.com",
+    "firstName": "Farhan",
+    "middleName": "Samir",
+    "surname": "Ibushe",
+    "fullName": "Farhan Samir Ibushe",
+    "primaryRole": "DevOps Engineer",
+    "techSkills": "DevOps, Docker, Kubernetes, Linux, CI/CD, AWS, Cloud Computing",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "saniyapatil075@gmail.com",
+    "firstName": "Saniya",
+    "middleName": "Vijay",
+    "surname": "Patil",
+    "fullName": "Saniya Vijay Patil",
+    "primaryRole": "Software Developer",
+    "techSkills": "Python, Java, Software Development, OOP, Data Structures",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "ningappagadade45@gmail.com",
+    "firstName": "Ningappa",
+    "middleName": "Dattatray",
+    "surname": "Gadade",
+    "fullName": "Ningappa Dattatray Gadade",
+    "primaryRole": "Software Developer",
+    "techSkills": "Software Development, Java, Python, C++, SQL, OOP",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "manasi241005@gmail.com",
+    "firstName": "Manasi",
+    "middleName": "Harinath",
+    "surname": "Suryawanshi",
+    "fullName": "Manasi Harinath Suryawanshi",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Java, Python, Web Development, React, SQL, JavaScript",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sohampatil200616@gmail.com",
+    "firstName": "Soham",
+    "middleName": "Sharad",
+    "surname": "Patil",
+    "fullName": "Soham Sharad Patil",
+    "primaryRole": "Data Scientist & ML Engineer",
+    "techSkills": "Data Science, Python, SQL, Machine Learning, Data Analytics, DBMS, Problem Solving, Data Structures",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "mohitvhanmane@gmail.com",
+    "firstName": "Mohit",
+    "middleName": "Shankar",
+    "surname": "Vhanmane",
+    "fullName": "Mohit Shankar Vhanmane",
+    "primaryRole": "Web Developer",
+    "techSkills": "Web Development, React, HTML, CSS, JavaScript, Node.js, Frontend Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "gayatrierandole696@gmail.com",
+    "firstName": "Gayatri",
+    "middleName": "Vilas",
+    "surname": "Erandole",
+    "fullName": "Gayatri Vilas Erandole",
+    "primaryRole": "AI & Web Developer",
+    "techSkills": "Python, Web Technology, Machine Learning, HTML, CSS, JavaScript, AI/ML",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "mulanik2004@gmail.com",
+    "firstName": "Kaifali",
+    "middleName": "Kamaal",
+    "surname": "Mulani",
+    "fullName": "Kaifali Kamaal Mulani",
+    "primaryRole": "Data Analytics & Cloud Engineer",
+    "techSkills": "Data Analytics, Cloud Computing, AWS, Python, SQL, Power BI, Docker",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "varadbhosale023@gmail.com",
+    "firstName": "Varad",
+    "middleName": "Sanjay",
+    "surname": "Bhosale",
+    "fullName": "Varad Sanjay Bhosale",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, Java, Python, React, Spring Boot, MySQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "alokkam4275@gmail.com",
+    "firstName": "Alok",
+    "middleName": "Ganesh",
+    "surname": "Kamble",
+    "fullName": "Alok Ganesh Kamble",
+    "primaryRole": "Data Analyst",
+    "techSkills": "Data Analytics, Python, SQL, Excel, Power BI, Data Visualization",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "adityapatil0545@gmail.com",
+    "firstName": "Aditya",
+    "middleName": "Dhananjay",
+    "surname": "Patil",
+    "fullName": "Aditya Dhananjay Patil",
+    "primaryRole": "Full Stack Web Developer",
+    "techSkills": "Full Stack Web Development, React, Node.js, Express, MongoDB, JavaScript, HTML, CSS",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shradhashinde107@gmail.com",
+    "firstName": "Shradha",
+    "middleName": "Satish",
+    "surname": "Shinde",
+    "fullName": "Shradha Satish Shinde",
+    "primaryRole": "Java & Machine Learning Developer",
+    "techSkills": "Java, Web Technology, Machine Learning, Python, Spring Boot, SQL, AI/ML",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sakshi2005salunkhe@gmail.com",
+    "firstName": "Sakshi",
+    "middleName": "Sunil",
+    "surname": "Salunkhe",
+    "fullName": "Sakshi Sunil Salunkhe",
+    "primaryRole": "Software Developer",
+    "techSkills": "Python, Java, SQL, Web Development, JavaScript, Database Management",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shreyaapatil3102@gmail.com",
+    "firstName": "Shreya",
+    "middleName": "Sunil",
+    "surname": "Patil",
+    "fullName": "Shreya Sunil Patil",
+    "primaryRole": "AI / ML Engineer",
+    "techSkills": "AIML, Artificial Intelligence, Machine Learning, Python, Deep Learning, TensorFlow, PyTorch",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "jswapnali2311@gmail.com",
+    "firstName": "Swapnali",
+    "middleName": "Govind",
+    "surname": "Jadhav",
+    "fullName": "Swapnali Govind Jadhav",
+    "primaryRole": "Software Developer",
+    "techSkills": "Software Development, Java, Python, SQL, Web Development, OOP",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "suhanapendhari786@gmail.com",
+    "firstName": "Suhana",
+    "middleName": "Mirasab",
+    "surname": "Pendhari",
+    "fullName": "Suhana Mirasab Pendhari",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, React, Node.js, JavaScript, Python, MongoDB, SQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "shubhamthane2047@gmail.com",
+    "firstName": "Shubham",
+    "middleName": "Kisan",
+    "surname": "Thorat",
+    "fullName": "Shubham Kisan Thorat",
+    "primaryRole": "Java Developer",
+    "techSkills": "Java, Spring Boot, Hibernate, MySQL, OOP, REST APIs, Microservices",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "vaishnavikamble6247@gmail.com",
+    "firstName": "Vaishnavi",
+    "middleName": "Chandrakant",
+    "surname": "Kamble",
+    "fullName": "Vaishnavi Chandrakant Kamble",
+    "primaryRole": "Java & Web Developer",
+    "techSkills": "Web Development, Java, JavaScript, HTML, CSS, Spring Boot, SQL",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sakshinalawade542005@gmail.com",
+    "firstName": "Sakshi",
+    "middleName": "Dhanaji",
+    "surname": "Nalawade",
+    "fullName": "Sakshi Dhanaji Nalawade",
+    "primaryRole": "Software & ML Developer",
+    "techSkills": "Software Development, Java, SQL, Machine Learning, Python, Web Development, OOP, Problem Solving",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "pandharesanika62@gmail.com",
+    "firstName": "Sanika",
+    "middleName": "Haridas",
+    "surname": "Pandhare",
+    "fullName": "Sanika Haridas Pandhare",
+    "primaryRole": "Frontend Developer",
+    "techSkills": "Frontend Developer, React, JavaScript, HTML, CSS, UI/UX, Tailwind CSS",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "sanikatandle2@gmail.com",
+    "firstName": "Sanika",
+    "middleName": "Appaso",
+    "surname": "Tandale",
+    "fullName": "Sanika Appaso Tandale",
+    "primaryRole": "Full Stack Software Developer",
+    "techSkills": "Full Stack Development, C, C++, C#, Java, Python, SQL, DBMS, Software Development",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "saniyakhalid2004@gmail.com",
+    "firstName": "Saniya",
+    "middleName": "Khalid",
+    "surname": "Shikalgar",
+    "fullName": "Saniya Khalid Shikalgar",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, MERN Stack, React, Node.js, Express, MongoDB, JavaScript",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "ishitap2705@gmail.com",
+    "firstName": "Ishita",
+    "middleName": "Sanjaysingh",
+    "surname": "Pardeshi",
+    "fullName": "Ishita Sanjaysingh Pardeshi",
+    "primaryRole": "MERN Stack & Data Science Engineer",
+    "techSkills": "MERN Stack, Data Science, MongoDB, Express, React, Node.js, Python, Machine Learning",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "bhagyaaaa.23@gmail.com",
+    "firstName": "Bhagyashri",
+    "middleName": "Uttam",
+    "surname": "Chavan",
+    "fullName": "Bhagyashri Uttam Chavan",
+    "primaryRole": "Software Developer & Data Analyst",
+    "techSkills": "Software Development, Data Analytics, Python, SQL, Java, Power BI",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "pratikshadhale4@gmail.com",
+    "firstName": "Pratiksha",
+    "middleName": "Sunil",
+    "surname": "Dhale",
+    "fullName": "Pratiksha Sunil Dhale",
+    "primaryRole": "Full Stack Developer",
+    "techSkills": "Full Stack Development, HTML, CSS, JavaScript, PHP, Java, MySQL, Oracle, Python, C/C++",
+    "location": "Maharashtra, India"
+  },
+  {
+    "email": "dishamulik031@gmail.com",
+    "firstName": "Disha",
+    "middleName": "Shahaji",
+    "surname": "Mulik",
+    "fullName": "Disha Shahaji Mulik",
+    "primaryRole": "Web & Software Developer",
+    "techSkills": "Software Development, Web Application Development, React, JavaScript, Python, REST APIs",
+    "location": "Maharashtra, India"
+  }
+]

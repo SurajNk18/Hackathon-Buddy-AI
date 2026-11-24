@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-17 18:04:59",
+  "total_tests": 28,
+  "passed_tests": 28,
+  "overall_accuracy_percentage": 100.0,
+  "models": [
+    {
+      "name": "TF-IDF Cosine Similarity Model",
+      "script": "test_ml_matcher.py",
+      "architecture": "Scikit-Learn TfidfVectorizer + Cosine Distance",
+      "accuracy_type": "Cosine Angle Precision & Ranking Order",
+      "tests_run": 5,
+      "tests_passed": 5,
+      "accuracy": 100.0,
+      "status": "PASS (100%)"
+    },
+    {
+      "name": "Teammate Matching Engine",
+      "script": "test_skill_matching.py",
+      "architecture": "Hybrid Strict Filter + TF-IDF Cosine + Jaccard",
+      "accuracy_type": "Classification & Compatibility Score (65-99%)",
+      "tests_run": 13,
+      "tests_passed": 13,
+      "accuracy": 100.0,
+      "status": "PASS (100%)"
+    },
+    {
+      "name": "Skill Gap Semantic Analyzer",
+      "script": "test_skill_gap_analyzer.py",
+      "architecture": "SentenceTransformer (all-MiniLM-L6-v2) / Substring",
+      "accuracy_type": "Skill Coverage % & Missing Skill Classification",
+      "tests_run": 4,
+      "tests_passed": 4,
+      "accuracy": 100.0,
+      "status": "PASS (100%)"
+    },
+    {
+      "name": "Hackathon Idea Generator",
+      "script": "test_idea_generator.py",
+      "architecture": "Contextual LLM Synthesizer & Rule Templates",
+      "accuracy_type": "Domain Categorization & Confidence Score (85-94%)",
+      "tests_run": 3,
+      "tests_passed": 3,
+      "accuracy": 100.0,
+      "status": "PASS (100%)"
+    },
+    {
+      "name": "AI Hackathon Copilot Chat",
+      "script": "test_chat_service.py",
+      "architecture": "Contextual Prompt & Domain Response Engine",
+      "accuracy_type": "Hackathon Query Intent & Relevance Match",
+      "tests_run": 3,
+      "tests_passed": 3,
+      "accuracy": 100.0,
+      "status": "PASS (100%)"
+    }
+  ],
+  "live_benchmarks": {
+    "tfidf_cosine_accuracy": 100.0,
+    "teammate_filter_accuracy": 100.0,
+    "jaccard_accuracy": 100.0,
+    "skill_gap_coverage_accuracy": 100.0,
+    "domain_intent_accuracy": 100.0
+  }
+}

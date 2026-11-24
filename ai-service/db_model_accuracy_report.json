@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-10-21 20:29:59",
+  "database_stats": {
+    "total_users_in_db": 123,
+    "users_with_skills_in_db": 99,
+    "total_skills_in_db": 146,
+    "distinct_user_skills_tested": 142,
+    "projects_in_db": 3,
+    "hackathons_in_db": 7
+  },
+  "metrics": {
+    "tfidf_cosine_accuracy": 86.81,
+    "filtering_accuracy": 100.0,
+    "ranking_accuracy": 100.0,
+    "skill_gap_accuracy": 90.24,
+    "domain_accuracy": 100.0,
+    "avg_compatibility_score": 78.4,
+    "avg_confidence_score": 94.0,
+    "overall_accuracy": 94.58
+  },
+  "sample_users_evaluated": [
+    {
+      "id": 2,
+      "name": "Sanika Haridas Pandhare",
+      "skills": [
+        "React",
+        "Spring Boot",
+        "MySQL",
+        "JavaScript"
+      ],
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": 300001,
+      "name": "vaishanavi",
+      "skills": [
+        "Java"
+      ],
+      "role": "Backend Developer"
+    },
+    {
+      "id": 390001,
+      "name": "Prathmesh Sargar",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "ml"
+      ],
+      "role": "Backend Developer"
+    },
+    {
+      "id": 420001,
+      "name": "Dipali Jadhav",
+      "skills": [
+        "React",
+        "Java",
+        "JavaScript"
+      ],
+      "role": "Frontend Developer"
+    },
+    {
+      "id": 420002,
+      "name": "Prathmesh Devappa Sargar",
+      "skills": [
+        "Java"
+      ],
+      "role": "Full Stack Developer"
+    }
+  ]
+}

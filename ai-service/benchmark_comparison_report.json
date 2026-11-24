@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-17 19:09:29",
+  "database_source": "test",
+  "total_candidates_evaluated": 17,
+  "total_applications_evaluated": 7,
+  "summary": {
+    "Devpost / Devfolio Tag Filter": {
+      "avg_precision": 100.0,
+      "avg_role_balance": 90.5,
+      "overall_quality": 92.9
+    },
+    "Upwork / Freelance Jaccard Matcher": {
+      "avg_precision": 100.0,
+      "avg_role_balance": 95.2,
+      "overall_quality": 97.1
+    },
+    "Standard Job Portal TF-IDF": {
+      "avg_precision": 100.0,
+      "avg_role_balance": 85.7,
+      "overall_quality": 91.4
+    },
+    "Hackathon Buddy AI Hybrid Model": {
+      "avg_precision": 100.0,
+      "avg_role_balance": 85.7,
+      "overall_quality": 91.4
+    }
+  }
+}

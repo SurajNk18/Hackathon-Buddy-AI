@@ -1,0 +1,67 @@
+<<<<<<< HEAD
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.example
+
+# Java
+target/
+*.class
+*.jar
+*.war
+.settings/
+.classpath
+.project
+.factorypath
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.pytest_cache/
+
+# Maven installation
+backend/maven/
+backend/maven.zip
+
+# Logs
+*.log
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> 5e2b7a9d34cd08c2e3d078055ade2e92ef7e4c61

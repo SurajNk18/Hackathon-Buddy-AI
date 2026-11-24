@@ -1,0 +1,726 @@
+/* ==========================================================
+   HACKATHON BUDDY — LOGIN PAGE (Redesigned)
+   Professional light design · Indigo / Blue accents
+   ========================================================== */
+
+/* ── PAGE ───────────────────────────────────────────────── */
+.lg-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 24px;
+  background: #F8FAFC;
+  color: #0F172A;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── CONTAINER ──────────────────────────────────────────── */
+.lg-container {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── BRAND (handled by HBLogo component) ─────────────── */
+
+/* ── HEADING ────────────────────────────────────────────── */
+.lg-heading {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.lg-heading h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  color: #0F172A;
+}
+
+.lg-heading p {
+  margin: 10px auto 0;
+  max-width: 400px;
+  color: #64748B;
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+/* ── CARD ───────────────────────────────────────────────── */
+.lg-card {
+  width: 100%;
+  padding: 32px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04),
+    0 6px 24px rgba(0, 0, 0, 0.03);
+}
+
+.lg-card-header {
+  margin-bottom: 24px;
+}
+
+.lg-card-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.lg-card-header p {
+  margin: 5px 0 0;
+  color: #64748B;
+  font-size: 13.5px;
+}
+
+/* ── SUCCESS BANNER ─────────────────────────────────────── */
+.lg-success-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  border-radius: 10px;
+  color: #15803D;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.lg-success-banner svg {
+  flex-shrink: 0;
+}
+
+/* ── SHARED LABEL ───────────────────────────────────────── */
+.lg-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ── ROLE SELECTOR ──────────────────────────────────────── */
+.lg-roles {
+  margin-bottom: 22px;
+}
+
+.lg-role-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lg-role-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 14px;
+  background: #F8FAFC;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 11px;
+  color: #0F172A;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.18s ease, background 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.lg-role-btn:hover {
+  border-color: #CBD5E1;
+  background: #F1F5F9;
+}
+
+.lg-role-btn.active {
+  border-color: #3730A3;
+  background: #EEF2FF;
+  box-shadow: 0 0 0 1px #3730A3;
+}
+
+.lg-role-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: var(--r-bg, #F1F5F9);
+  color: var(--r-color, #64748B);
+  transition: all 0.18s ease;
+}
+
+.lg-role-btn.active .lg-role-icon {
+  background: var(--r-color, #3730A3);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(55, 48, 163, 0.25);
+}
+
+.lg-role-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  min-width: 0;
+}
+
+.lg-role-text strong {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1E293B;
+}
+
+.lg-role-text small {
+  font-size: 12px;
+  color: #64748B;
+  font-weight: 400;
+}
+
+.lg-role-check {
+  color: #3730A3;
+  flex-shrink: 0;
+}
+
+/* ── SUB-ROLE SELECTOR ──────────────────────────────────── */
+.lg-sub-roles {
+  margin-bottom: 22px;
+  padding: 14px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+}
+
+.lg-sub-role-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.lg-sub-role-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 10px;
+  color: #64748B;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.18s ease;
+}
+
+.lg-sub-role-btn:hover {
+  border-color: #CBD5E1;
+}
+
+.lg-sub-role-btn.active {
+  border-color: #2563EB;
+  background: #EFF6FF;
+  color: #2563EB;
+  box-shadow: 0 0 0 1px #2563EB;
+}
+
+.lg-sub-role-btn svg {
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.lg-sub-role-btn strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1E293B;
+}
+
+.lg-sub-role-btn.active strong {
+  color: #1E40AF;
+}
+
+.lg-sub-role-btn small {
+  font-size: 11px;
+  color: #64748B;
+  font-weight: 400;
+}
+
+/* ── FORM FIELDS ────────────────────────────────────────── */
+.lg-field {
+  margin-bottom: 18px;
+}
+
+.lg-field label {
+  display: block;
+  margin-bottom: 6px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lg-field-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.lg-field-row label {
+  margin-bottom: 0;
+}
+
+.lg-field input {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 10px;
+  outline: none;
+  color: #0F172A;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lg-field input::placeholder {
+  color: #94A3B8;
+}
+
+.lg-field input:hover {
+  border-color: #CBD5E1;
+}
+
+.lg-field input:focus {
+  border-color: #3730A3;
+  box-shadow: 0 0 0 3px rgba(55, 48, 163, 0.1);
+}
+
+/* ── FORGOT PASSWORD ────────────────────────────────────── */
+.lg-forgot {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #2563EB;
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.lg-forgot:hover {
+  color: #1D4ED8;
+  text-decoration: underline;
+}
+
+/* ── ERROR ──────────────────────────────────────────────── */
+.lg-error {
+  padding: 11px 14px;
+  margin-bottom: 16px;
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-radius: 9px;
+  color: #DC2626;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+/* ── SUBMIT BUTTON ──────────────────────────────────────── */
+.lg-submit {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 10px;
+  background: #3730A3;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(55, 48, 163, 0.2);
+}
+
+.lg-submit:hover:not(:disabled) {
+  background: #312E81;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(55, 48, 163, 0.25);
+}
+
+.lg-submit:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.lg-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* ── DIVIDER ────────────────────────────────────────────── */
+.lg-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 24px 0;
+}
+
+.lg-divider::before,
+.lg-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #E2E8F0;
+}
+
+.lg-divider span {
+  color: #94A3B8;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ── CREATE ACCOUNT ─────────────────────────────────────── */
+.lg-create {
+  padding: 18px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+}
+
+.lg-create-text h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1E293B;
+}
+
+.lg-create-text p {
+  margin: 4px 0 14px;
+  color: #64748B;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.lg-create-btn {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 9px;
+  color: #3730A3;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.lg-create-btn:hover {
+  border-color: #3730A3;
+  background: #EEF2FF;
+  transform: translateY(-1px);
+}
+
+/* ── FOOTER ─────────────────────────────────────────────── */
+.lg-footer {
+  margin: 24px 0 0;
+  color: #94A3B8;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ==========================================================
+   FORGOT PASSWORD MODAL
+   ========================================================== */
+
+.lg-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: lgFadeIn 0.18s ease-out;
+}
+
+.lg-modal {
+  width: 100%;
+  max-width: 440px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+  animation: lgSlideUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes lgFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lgSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.lg-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.lg-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lg-modal-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #EEF2FF;
+  border: 1px solid #C7D2FE;
+  color: #3730A3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.lg-modal-title h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.lg-modal-title p {
+  margin: 3px 0 0;
+  font-size: 12.5px;
+  color: #64748B;
+}
+
+.lg-modal-close {
+  background: transparent;
+  border: none;
+  color: #94A3B8;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.lg-modal-close:hover {
+  background: #F1F5F9;
+  color: #334155;
+}
+
+.lg-modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.lg-modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.lg-modal-cancel {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #64748B;
+  padding: 9px 18px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.lg-modal-cancel:hover:not(:disabled) {
+  background: #F8FAFC;
+  border-color: #CBD5E1;
+  color: #334155;
+}
+
+.lg-modal-submit {
+  background: #3730A3;
+  border: none;
+  color: #fff;
+  padding: 9px 20px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  box-shadow: 0 1px 3px rgba(55, 48, 163, 0.2);
+}
+
+.lg-modal-submit:hover:not(:disabled) {
+  background: #312E81;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(55, 48, 163, 0.25);
+}
+
+.lg-modal-submit:disabled,
+.lg-modal-cancel:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .lg-page {
+    padding: 32px 20px;
+  }
+
+  .lg-heading h1 {
+    font-size: 25px;
+  }
+
+  .lg-card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 520px) {
+  .lg-page {
+    padding: 24px 16px;
+    min-height: 100dvh;
+  }
+
+  .lg-brand {
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .lg-brand-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+  }
+
+  .lg-brand-name {
+    font-size: 17px;
+  }
+
+  .lg-heading {
+    margin-bottom: 22px;
+  }
+
+  .lg-heading h1 {
+    font-size: 23px;
+  }
+
+  .lg-heading p {
+    font-size: 13px;
+  }
+
+  .lg-card {
+    padding: 20px 18px;
+    border-radius: 14px;
+  }
+
+  .lg-card-header h2 {
+    font-size: 16px;
+  }
+
+  .lg-role-btn {
+    padding: 10px 12px;
+  }
+
+  .lg-role-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .lg-sub-role-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lg-field input {
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .lg-submit {
+    height: 44px;
+    font-size: 13.5px;
+  }
+
+  .lg-field-row {
+    gap: 6px;
+  }
+
+  .lg-create {
+    padding: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .lg-page {
+    padding: 20px 12px;
+  }
+
+  .lg-brand-name {
+    font-size: 15px;
+  }
+
+  .lg-heading h1 {
+    font-size: 21px;
+  }
+
+  .lg-card {
+    padding: 16px 14px;
+  }
+
+  .lg-field-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
